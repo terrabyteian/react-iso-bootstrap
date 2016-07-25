@@ -1,6 +1,6 @@
 import React from 'react';
 import connectToStores from 'alt-utils/lib/connectToStores';
-import ExampleStore from '../../js/stores/ExampleStore.js';
+import ExampleStore from '../../alt/stores/ExampleStore.js';
 import ExampleActionButton from './ExampleActionButton';
 
 /*

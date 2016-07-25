@@ -1,6 +1,6 @@
 import React from 'react';
-import ExampleStore from '../../js/stores/ExampleStore';
-import ExampleActions from '../../js/actions/ExampleActions';
+import ExampleStore from '../../alt/stores/ExampleStore';
+import ExampleActions from '../../alt/actions/ExampleActions';
 import ExampleActionButton from './ExampleActionButton';
 
 export default class ExampleComponent extends React.Component {

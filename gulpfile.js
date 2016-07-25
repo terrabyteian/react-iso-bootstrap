@@ -139,7 +139,7 @@ gulp.task('buildProd', function(){
                   presets: ["es2015", "react"],
                   plugins: ["transform-class-properties"]
                 }),
-    extensions: ['.jsx'],
+    //extensions: ['.jsx'],
     debug: false,
     fullPaths: false
   })

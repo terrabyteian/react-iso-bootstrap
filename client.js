@@ -2,7 +2,7 @@ import React from 'react';
 import Router from 'react-router';
 import ReactDOM from 'react-dom';
 import Iso from 'iso';
-import alt from './src/js/alt';
+import alt from './src/alt/alt';
 import createBrowserHistory from 'history/lib/createBrowserHistory';
 import routes from './src/routes';
 

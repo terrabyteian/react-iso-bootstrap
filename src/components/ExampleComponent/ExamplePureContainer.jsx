@@ -1,6 +1,6 @@
 import React from 'react';
 import AltContainer from 'alt-container'
-import ExampleStore from '../../js/stores/ExampleStore';
+import ExampleStore from '../../alt/stores/ExampleStore';
 import ExamplePureComponent from './ExamplePureComponent';
 
 /*

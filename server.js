@@ -19,7 +19,7 @@ var ReactDOM = require('react-dom/server');
 var Router = require('react-router');
 var Iso = require('iso');
 var routes = require('./src/routes');
-var alt = require('./src/js/alt');
+var alt = require('./src/alt/alt');
 
 // Configure `app` as express instance
 var ip = '0.0.0.0';
