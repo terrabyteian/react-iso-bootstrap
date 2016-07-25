@@ -156,3 +156,7 @@ In this example code, we'll configure nginx to proxy requests for "example.com" 
 * [React on ES6+](http://babeljs.io/blog/2015/06/07/react-on-es6-plus/)
 * [Alt.js Guide](http://alt.js.org/guide/)
 * [React DevTools for Chrome](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+
+### Changes by Ian:
+* Moved src/js to src/alt, since it served exclusively as a subdirectory for alt actions and stores
+* Added babel-plugin-transform-class-properties as a devDependency, due to a warning thrown on osx
